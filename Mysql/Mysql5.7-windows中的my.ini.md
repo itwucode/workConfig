@@ -1,4 +1,4 @@
-###my.ini
+### my.ini
 ```
 [client]
 port=3306
@@ -11,13 +11,16 @@ character_set_server = utf8
 sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
 ```
 针对于windows下面的mysql5.7的配置
-###安装配置
+
+### 安装配置
+
 >https://blog.csdn.net/haixwang/article/details/54973036
-###初始化
+
+### 初始化
 ```
 mysqld --initialize-insecure自动生成无密码的root用户，mysqld --initialize自动生成带随机密码的root用户
 ```
-###设置密码
+### 设置密码
 
 ```
 net stop mysql    回车    
